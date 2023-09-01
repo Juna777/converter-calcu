@@ -1,0 +1,53 @@
+.navbar {
+  background-color: #9ED2BE;
+  overflow: hidden;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  color:rgb(13, 59, 37);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #647387;
+  color: rgb(13, 59, 37);
+}
+  
+.clock {
+  width: 280px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url(clock.jpg) ;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+.WORDS{
+  color:aliceblue; 
+  text-align:center;
+}
+.footer {
+  background-color:#9ED2BE;
+  color:  rgb(13, 59, 37);
+  bottom: 50px;
+  margin-top: 100px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+
+

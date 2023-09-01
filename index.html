@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body style="background-image: url(earth.gif);background-repeat: no-repeat;background-size: cover;">
+    <nav class="navbar">
+        <a class="active" href="index.html">Juna Mae Adlaon</a>
+        <a href="index.html">Time Converter</a>
+        <a href="index1.html">Calculator</a>
+      </nav>
+    <br><br><br>
+    <div>
+        <h2 class="WORDS">
+            Time Converter</h2>
+        <br><br>
+        <form class="align-items-center">
+            <h3 style="color: rgb(13, 59, 37);text-align:center;">
+                <div class="clock">
+                    <div class="card"
+                        style="margin-top: 65px;">
+                        Day/s
+                        <input type="text" id="num1" size="2px"  onkeyup="DaytoHrs();">
+                        <br><br>to<br><br>
+                        Hours
+                        <input type="text" size="2px" id="num2">
+                        <br><br><br>
+                        <button onclick="clr();" style="width: 90px; height: 20px; background-color: #647387;">clear</button>
+                        
+
+                    </div>
+                </div>
+                <div class="clock">
+                    <div class="card"
+                        style="margin-top: 65px;">
+                        Day/s
+                        <input type="text" id="num3" size="2px" onkeyup="DaytoMins();">
+                        <br><br>to<br><br>
+                        Minutes
+                        <input type="text" size="2px" id="num4" style="margin-right:15px;">
+                        <br><br><br>
+                        <button onclick="clr();" style="width: 90px; height: 20px; background-color: #647387;">clear</button>
+                    </div>
+                </div>
+                <div class="clock">
+                    <div class="card"
+                        style="margin-top: 65px;">
+                        Day/s
+                        <input type="text" id="num5" size="2px" onkeyup="DaytoSecs();">
+                        <br><br>to<br><br>
+                        Seconds
+                        <input type="text" size="2px" id="num6" style="margin-right: 15px;">
+                        <br><br><br>
+                        <button onclick="clr();" style="width: 90px; height: 20px; background-color: #647387;">clear</button>
+                    </div>
+                </div>
+            </h3>
+        </form>
+        <br><br><br>
+        <div class="WORDS">
+            <h4> HE <br> has Made <br>Everything Beautiful <br>in its Time <br><br>
+                <h5>ECCLESIASTES 3:11</h5>
+        </div>
+    <div class="footer">
+        <center>
+            <h6>
+                <br>Calculator
+                <br>Time Converter
+                <br>Dated 09-01-23
+                <br><br><br><br>
+                <br>© 2023 Juna Mae Adlaon All rights reserved.
+            </h6>
+        </center>
+    </div>
+  </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
